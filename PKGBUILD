@@ -3,14 +3,15 @@
 _pkgname=sway-services
 pkgname=${_pkgname}-git
 pkgdesc="Collection of sway and friends systemd unit files"
-pkgver=r25.cd1b01f
+pkgver=r29.6c5d011
 pkgrel=1
 arch=(any)
 depends=('sway')
 makedepends=('meson')
 optdepends=('python3: for swayidle.service' 'python-yaml: for swayidle.service' 'mako' 'swayidle' 'kanshi')
-url="https://github.com/xdbob/sway-services"
-source=("git+${url}.git")
+url="https://github.com/jtheoof/sway-services"
+_branch=jtheoof/oguri
+source=("git+${url}.git#branch=${_branch}")
 license=('MIT')
 md5sums=('SKIP')
 

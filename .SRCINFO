@@ -1,8 +1,8 @@
 pkgbase = sway-services-git
 	pkgdesc = Collection of sway and friends systemd unit files
-	pkgver = r25.cd1b01f
+	pkgver = r29.6c5d011
 	pkgrel = 1
-	url = https://github.com/xdbob/sway-services
+	url = https://github.com/jtheoof/sway-services
 	arch = any
 	license = MIT
 	makedepends = meson
@@ -12,7 +12,7 @@ pkgbase = sway-services-git
 	optdepends = mako
 	optdepends = swayidle
 	optdepends = kanshi
-	source = git+https://github.com/xdbob/sway-services.git
+	source = git+https://github.com/jtheoof/sway-services.git#branch=jtheoof/oguri
 	md5sums = SKIP
 
 pkgname = sway-services-git
